@@ -42,7 +42,7 @@ export const CarData = [
     },
     {
         id:4,
-        name:"2015 AUDI A7 3.0 TFSI QUATTRO S-LİNE",
+        name:"2015 AUDI A7 3.0 TFSI QUATTRO S-LINE ",
         img:audia7,
         price:"31000",
         year:"2015",

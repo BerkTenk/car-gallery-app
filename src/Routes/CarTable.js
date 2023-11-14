@@ -22,7 +22,7 @@ function CarTable() {
   return (
     <div>
       <NavBar />
-      <div className='' style={{ height: 400, width: '100%' }}>
+      <div className=' px-1 mt-5' style={{ height: 400, width: '100%' }}>
       <DataGrid
         rows={rows}
         columns={columns}

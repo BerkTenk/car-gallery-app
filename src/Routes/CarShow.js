@@ -129,7 +129,7 @@ function CarShow() {
           
         </Col>
         </Row> */}
-         <Row xs={1} md={2} lg={4} className="g-4 mt-2">
+         <Row xs={1} md={2} lg={4} className="g-4 mt-5">
       {Array.from(CarData).map((data, idx) => (
         <Col key={idx}>
           <Card>
