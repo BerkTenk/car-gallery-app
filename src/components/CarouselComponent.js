@@ -18,7 +18,7 @@ function CarouselComponent() {
                             objectPosition: "center",
                             height: "100%"}}
                         src={c1}
-                        alt="Image One"
+                        alt="Car"
                         width={"100%"}
                     />
                     <Carousel.Caption >
@@ -32,7 +32,7 @@ function CarouselComponent() {
                             objectPosition: "center",
                             height: "45vh"}}
                         src={c2}
-                        alt="Image Two"
+                        alt="Car"
                         width={"100%"}
                     />
                     <Carousel.Caption>
@@ -46,7 +46,7 @@ function CarouselComponent() {
                             objectPosition: "center",
                             height: "100%"}}
                         src={c3}
-                        alt="Image Two"
+                        alt="Car"
                         width={"100%"}
                     />
                     <Carousel.Caption>
@@ -60,7 +60,7 @@ function CarouselComponent() {
                             objectPosition: "center",
                             height: "100%"}}
                         src={c4}
-                        alt="Image Two"
+                        alt="Car"
                         width={"100%"}
                     />
                     <Carousel.Caption>
@@ -74,7 +74,7 @@ function CarouselComponent() {
                             objectPosition: "center",
                             height: "100%"}}
                         src={c5}
-                        alt="Image Two"
+                        alt="Car"
                         width={"100%"}
                     />
                     <Carousel.Caption >
