@@ -8,7 +8,7 @@ function ScrollableGallery() {
     // Mouse scroll ile yatay kaydırma
     useEffect(() => {
         const scrollContainer = scrollRef.current;
-        const scrollSpeed = 2; // Scroll hızını artırmak için bu değeri artırabilirsiniz
+        const scrollSpeed = 1.2; // Scroll hızını artırmak için bu değeri artırabilirsiniz
 
         const handleMouseScroll = (e) => {
             e.preventDefault();
