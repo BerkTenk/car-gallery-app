@@ -5,10 +5,9 @@ import { CarData } from './CarData';
 function ScrollableGallery() {
     const scrollRef = useRef(null);
 
-    // Mouse scroll ile yatay kaydırma
     useEffect(() => {
         const scrollContainer = scrollRef.current;
-        const scrollSpeed = 1.2; // Scroll hızını artırmak için bu değeri artırabilirsiniz
+        const scrollSpeed = 1.2;
 
         const handleMouseScroll = (e) => {
             e.preventDefault();
@@ -24,12 +23,11 @@ function ScrollableGallery() {
         <div className='container-fluid car-scroll'>
             <div 
                 className='row flex-nowrap scroll-container' 
-                style={{ overflowX: 'hidden' }} 
                 ref={scrollRef}
             >
                 {Array.from(CarData).map((data, i) => (
                     <div key={i} className='col-4 d-flex align-items-center justify-content-center'>
-                        <img src={data.img} alt='car' className='img-fluid' style={{ maxWidth: '300px', height: 'auto', maxHeight:"300px" }} />
+                        <img src={data.img} alt='car' className='img-fluid' />
                     </div>
                 ))}
             </div>

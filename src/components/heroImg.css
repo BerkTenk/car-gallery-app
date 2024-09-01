@@ -72,6 +72,37 @@
     flex-wrap: nowrap;
 }
 
+.scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container img {
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 0 10px; /* Resimler arasında yatay boşluk */
+}
+
+/* Küçük ekranlar için */
+@media (max-width: 768px) {
+    .scroll-container {
+        flex-wrap: nowrap; /* Yan yana durmaları için wrap özelliği kaldırıldı */
+    }
+
+    .scroll-container img {
+        width: 80%; /* Küçük ekranlarda daha büyük görünmeleri için genişlik ayarlandı */
+    }
+}
+
+
 
 @media screen and (max-width:640px) {
     .hero .content h1{
