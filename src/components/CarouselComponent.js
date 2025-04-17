@@ -6,6 +6,7 @@ import c2 from "../assets/2005_Mercedes-Benz_CLS_320_CDi_Automatic_3.0_Rear.jpg"
 import c3 from "../assets/audiq7.jpg"
 import c4 from "../assets/2015-audi-a7-30-tfsi-quattro-progressiv_1.png"
 import c5 from "../assets/chevrolet.jpeg"
+console.log("test");
 function CarouselComponent() {
 
     return (
